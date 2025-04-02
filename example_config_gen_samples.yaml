@@ -1,0 +1,5 @@
+problem_file: data/cuda_problems_121924.jsonl   # Input problems
+sample_file: data/samples.jsonl          # Generated samples
+
+model: llama-3.1-nemotron-70b-instruct   # Model to use
+num_samples_per_problem: 3               # Samples to generate per problem
