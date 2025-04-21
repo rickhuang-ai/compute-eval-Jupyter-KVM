@@ -1,0 +1,9 @@
+problem_file: data/cuda_problems_121924.jsonl   # Input problems
+sample_file: data/samples.0.jsonl          # Generated samples
+
+model: llama-3.1-nemotron-70b-instruct   # Model to use
+num_samples_per_problem: 5               # Samples to generate per problem
+
+# custom_model:
+#   api_endpoint: https://integrate.api.nvidia.com/v1
+#   model_id: nvidia/llama-3.1-nemotron-70b-instruct
