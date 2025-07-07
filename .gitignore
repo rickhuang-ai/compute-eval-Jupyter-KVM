@@ -42,3 +42,14 @@ env/
 
 # Ignore the generated results file
 **/*results.jsonl
+
+# Ignore all .txt files
+*.txt
+compute_eval/SWWAISpecialistBDMtranscript.txt
+
+# Ignore all .jsonl files
+*.jsonl
+compute_eval/txt_analysis.jsonl
+
+# Ignore .lock files
+*.lock
